@@ -10,6 +10,7 @@ export default function DeletionInStorage(folder_id_to_delete) {
             })
         })
     }
+     
     return new Promise((res,rej)=>{database.folders.where("userId","==",auth.currentUser.uid).get().then(function (querySnapshot) {
             querySnapshot.forEach(async(doc)=>{
                 if (doc.data().pathIds.indexOf(folder_id_to_delete) >= 0) {
