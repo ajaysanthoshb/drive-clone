@@ -1,0 +1,8 @@
+.folderbutton{
+    border:none;
+    border-radius: 0.25rem;
+    background: #198754;
+    color: #eee;
+    font-size: 0.5rem;
+    /* background: #9999998f; */
+}

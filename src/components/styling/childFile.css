@@ -1,0 +1,22 @@
+.uploading::before{
+    content: "Uploading.";
+    animation: loading 1s ease infinite;
+}
+
+@keyframes loading {
+    0%{
+        content : "Uploading."
+    }
+    20%{
+        content : "Uploading.."
+    }
+    40%{
+        content : "Uploading..."
+    }
+    60%{
+        content : "Uploading...."
+    }
+    80%{
+        content : "Uploading....."
+    }
+}

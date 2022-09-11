@@ -1,0 +1,31 @@
+.cloudstorage{
+    color: #ddd;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+}
+
+.navContainer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background: linear-gradient(to bottom, black,#222, #333);
+}
+
+.navlink {
+    position: absolute;
+    right:0.5rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #ddd;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
